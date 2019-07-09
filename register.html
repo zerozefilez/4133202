@@ -1,0 +1,28 @@
+<html>
+    <head></head>
+    <body>
+            <form action="page/add_member.php" method="POST">
+                <label>USER</label>
+                <input type="text" placeholder="USER" name="user">
+                <br>
+                <label>AGE</label>
+                <input type="text" value="15" name="age">
+                <br>
+                <label>SEX</label>
+                <input type="radio" name="sex" value="1"><label>MALE</label>
+                <input type="radio" name="sex" value="2"><label>FEMALE</label>
+                <br>
+                <label>Favorite</label>
+                <input type="checkbox" name="fav_P" value="pizza"><label>PIZZA</label>
+                <input type="checkbox" name="fav_N" value="noodle"><label>Noodle</label>
+                <br>
+                <label>Province</label>
+                <select name="province">
+                    <option value="1">BURIRAM</option>
+                    <option value="2">BANGKOK</option>
+                </select>
+                <hr>
+                <button type="submit">SAVE</button>
+            </form>
+    </body>
+</html>
